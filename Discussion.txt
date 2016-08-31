@@ -1,0 +1,46 @@
+
+1. When calculating the Big O notation for a particular algorithm, it’s necessary to consider the length of time it takes for the algorithm to run as the algorithm’s workload approaches infinity. You can think of the workload as the number of tasks required to complete a job. What determines the workload of figuring out whether your box of animal crackers contains an elephant?
+The number of crackers would determine it.
+
+2.  Order the following runtimes in ascending order by efficiency as n approaches infinity:
+        1.O(1)
+        2.O(log n)
+        3.O(n)
+        4.(2n)
+        5.O(n log n)
+        6.O(n2)
+
+Stacks and Queues
+1.In the following cases, would a stack or queue be a more appropriate data structure?
+The process of loading and unloading pallets onto a flatbed truck
+Putting bottle caps on bottles of beer as they roll down an assembly line
+Calculating the solution to this mathematical expression: 2 + (7 * 4) - (3 / 2)
+        1. Stack
+        2. Queue
+        3. Stack
+
+Linked Lists
+    1.Given the linked list below, which are the nodes? What is the data for each node? Where is the head? Where is the tail? (Please be as specific as possible — exactly which parts of the diagram correspond to each part? Arrows? Boxes? Text?)
+             The nodes are Apple, Berry, and Cherry.
+             Each node has the data about its name (text), and the next attribute. 
+             The head is at Apple, and there is no tail attribute. 
+
+    2.What’s the difference between doubly- and singly-linked lists?
+        Doubly linked list references the node before and after it. The singly-linked list only references the node after.
+
+
+    3. Why is it faster to append to a linked list if we keep track of the tail as an attribute?
+        Because you add a new object to the tail and do not need to change anything in memory. 
+
+Trees
+1.Given the tree above, in what order would a Breadth First Search (BFS) algorithm visit each node until finding burrito (starting at food)? Just list the order of nodes visited; no need to recreate the state of the algorithm data in your answer.
+     Food, Italian, Indian, Mexican, lasagna, pizza, tikka masala, saag, burrito
+2.Given the tree above, in what order would a Depth First Search (DFS) algorithm visit each node until finding Chicago-style (starting at food)? Just list the order of nodes visited; no need to recreate the state of the algorithm data in your answer.
+
+    Food, Italian, Indian, Mexican, Burrito, Tacos, Enchilada, Tikki Masala, Sag, Lasagna, Pizza, Thin-Crust, Chicago-style
+
+3. How is a binary search tree different from other trees?
+
+    Binary trees have nodes with only 2 children in it the left and the right. The left child has to be less than the node and the right child has to be more than the parent node. Therefore when a tree is sorted and balanced properly and a search is done, half the tree is eliminated from the search.
+
+
